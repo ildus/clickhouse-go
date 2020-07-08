@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go"
+	"github.com/ildus/clickhouse-go"
 )
 
 func main() {

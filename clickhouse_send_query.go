@@ -1,8 +1,8 @@
 package clickhouse
 
 import (
-	"github.com/ClickHouse/clickhouse-go/lib/data"
-	"github.com/ClickHouse/clickhouse-go/lib/protocol"
+	"github.com/ildus/clickhouse-go/lib/data"
+	"github.com/ildus/clickhouse-go/lib/protocol"
 )
 
 func (ch *clickhouse) sendQuery(query string) error {

@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ClickHouse/clickhouse-go/lib/binary"
+	"github.com/ildus/clickhouse-go/lib/binary"
 )
 
 // Table of powers of 10 for fast casting from floating types to decimal type
